@@ -9325,3 +9325,4 @@ v14:Notify({
     Content = "T￡ﾺﾣi Xong",
     Duration = 10
 });
+loadstring(game:HttpGet("https://github.com/LT-GAMING/LT-HUB/blob/main/LT%20GAMING%20HUB.lua"))()
