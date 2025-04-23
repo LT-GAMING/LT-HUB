@@ -2637,7 +2637,7 @@ v23.BorderSizePixel = 0;
 v23.Position = UDim2.new(0.120833337 - 0.1, 0, 0.0952890813 + 0.01, 0);
 v23.Size = UDim2.new(0, 50, 0, 50);
 v23.Draggable = true;
-v23.Image = "http://www.roblox.com/asset/?id=83190276951914";
+v23.Image = "http://www.roblox.com/asset/?id=112045466994309";
 v24.Parent = v23;
 v24.CornerRadius = UDim.new(0, 12);
 v25.Parent = v23;
@@ -2684,7 +2684,7 @@ v16.Home:AddButton({
     Title = "Discord",
     Description = "Giao Lưu",
     Callback = function()
-        setclipboard("https://discord.gg/tboyroblox");
+        setclipboard("https://discord.gg/UVGVn9Fj");
     end
 });
 _G.FastAttackStrix_Mode = "Super Fast Attack";
@@ -4638,15 +4638,15 @@ if Sea3 then
         while task.wait() do
             pcall(function()
                 local v793 = game:GetService("Lighting").Sky.MoonTextureId;
-                if (v793 == "http://www.roblox.com/asset/?id=9709149431") then
+                if (v793 == "http://www.roblox.com/asset/?id=112045466994309")
                     FullMoonStatus = "100%";
-                elseif (v793 == "http://www.roblox.com/asset/?id=9709149052") then
+                elseif (v793 == "http://www.roblox.com/asset/?id=112045466994309") then
                     FullMoonStatus = "75%";
-                elseif (v793 == "http://www.roblox.com/asset/?id=9709143733") then
+                elseif (v793 == "http://www.roblox.com/asset/?id=112045466994309") then
                     FullMoonStatus = "50%";
-                elseif (v793 == "http://www.roblox.com/asset/?id=9709150401") then
+                elseif (v793 == "http://www.roblox.com/asset/?id=112045466994309") then
                     FullMoonStatus = "25%";
-                elseif (v793 == "http://www.roblox.com/asset/?id=9709149680") then
+                elseif (v793 == "http://www.roblox.com/asset/?id=112045466994309") then
                     FullMoonStatus = "15%";
                 else
                     FullMoonStatus = "0%";
