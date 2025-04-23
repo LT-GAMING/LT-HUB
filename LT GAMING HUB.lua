@@ -1,11 +1,4 @@
-shared.LoaderTitle = "Đăng Ký Kênh Youtube: LT GAMING";
-shared.LoaderColors = {
-    Main = Color3.fromRGB(0, 0, 0),
-    Topic = Color3.fromRGB(200, 200, 200),
-    Title = Color3.fromRGB(255, 255, 255),
-    LoaderBackground = Color3.fromRGB(40, 40, 40),
-    LoaderSplash = Color3.fromRGB(3, 252, 3)
-};
+shared.LoaderTitle = "ĐĂNG KÍ KÊNH LT GAMING";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -109,7 +102,7 @@ local v8 = CreateObject("TextLabel", {
     Name = "UserName",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "Youtube: LT GAMING",
+    Text = "Youtube: LT GAMING HUB NEWW",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -317,10 +310,10 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))();
 local v15 = v14:CreateWindow({
-    Title = "LT GAMING Hub",
+    Title = "LT GAMING HUB NEWW Hub",
     SubTitle = "Blox Fruit",
     TabWidth = 160,
-    Theme = "Dark",
+    Theme = "AMETHYST",
     Acrylic = false,
     Size = UDim2.fromOffset(500, 320),
     MinimizeKey = Enum.KeyCode.End
@@ -2684,7 +2677,7 @@ v16.Home:AddButton({
     Title = "Discord",
     Description = "Giao Lưu",
     Callback = function()
-        setclipboard("https://discord.gg/UVGVn9Fj");
+        setclipboard("https://discord.gg/tboyroblox");
     end
 });
 _G.FastAttackStrix_Mode = "Super Fast Attack";
@@ -3878,7 +3871,7 @@ if Sea3 then
             _G.AutoFindPrehistoric = false;
             if not v513 then
                 v14:Notify({
-                    Title = "LT GAMING",
+                    Title = "LT GAMING HUB NEWW",
                     Content = "Đảo Dung Nham Tìm Thấy",
                     Duration = 10
                 });
@@ -3972,7 +3965,7 @@ if Sea3 then
             _G.AutoFindMirage = false;
             if not v513 then
                 v14:Notify({
-                    Title = "LT GAMING",
+                    Title = "LT GAMING HUB NEWW",
                     Content = "Đảo Bí Ẩn Tìm Thấy",
                     Duration = 10
                 });
@@ -4066,7 +4059,7 @@ if Sea3 then
             _G.AutoFindFrozen = false;
             if not v513 then
                 v14:Notify({
-                    Title = "LT GAMING",
+                    Title = "LT GAMING HUB NEWW",
                     Content = "Đảo Leviathan Tìm Thấy",
                     Duration = 10
                 });
@@ -4638,15 +4631,15 @@ if Sea3 then
         while task.wait() do
             pcall(function()
                 local v793 = game:GetService("Lighting").Sky.MoonTextureId;
-                if (v793 == "http://www.roblox.com/asset/?id=112045466994309")
+                if (v793 == "http://www.roblox.com/asset/?id=9709149431") then
                     FullMoonStatus = "100%";
-                elseif (v793 == "http://www.roblox.com/asset/?id=112045466994309") then
+                elseif (v793 == "http://www.roblox.com/asset/?id=9709149052") then
                     FullMoonStatus = "75%";
-                elseif (v793 == "http://www.roblox.com/asset/?id=112045466994309") then
+                elseif (v793 == "http://www.roblox.com/asset/?id=9709143733") then
                     FullMoonStatus = "50%";
-                elseif (v793 == "http://www.roblox.com/asset/?id=112045466994309") then
+                elseif (v793 == "http://www.roblox.com/asset/?id=9709150401") then
                     FullMoonStatus = "25%";
-                elseif (v793 == "http://www.roblox.com/asset/?id=112045466994309") then
+                elseif (v793 == "http://www.roblox.com/asset/?id=9709149680") then
                     FullMoonStatus = "15%";
                 else
                     FullMoonStatus = "0%";
@@ -9328,7 +9321,7 @@ spawn(function()
     end
 end);
 v14:Notify({
-    Title = "LT GAMING",
-    Content = "Tải Xong",
+    Title = "LT GAMING HUB NEWW",
+    Content = "Tải Xong CAMT ƠN ĐÃ SỬ DỤNG HIỆN TAI SCRIPT ĐANG LỖI FRAM LEVER",
     Duration = 10
 });
