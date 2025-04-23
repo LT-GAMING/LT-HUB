@@ -300,7 +300,7 @@ local v15 = v14:CreateWindow({
     Title = "LT GAMING Hub",
     SubTitle = "Blox Fruit",
     TabWidth = 160,
-    Theme = "Dark",
+    Theme = "RED BLACK DARK",
     Acrylic = false,
     Size = UDim2.fromOffset(500, 320),
     MinimizeKey = Enum.KeyCode.End
@@ -2664,7 +2664,7 @@ v16.Home:AddButton({
     Title = "Discord",
     Description = "Giao Lưu",
     Callback = function()
-        setclipboard("https://discord.gg/UVGVn9Fj");
+        setclipboard("https://github.com/LT-GAMING/LT-HUB");
     end
 });
 _G.FastAttackStrix_Mode ="Xeter Fast Attack";
@@ -2728,17 +2728,17 @@ end);
 local v49 = v16.Main:AddToggle("ToggleLevel", {
     Title = "Cày Cấp",
     Description = "",
-    Default = true 
+    Default = false 
 });
 v49:OnChanged(function(v237)
     _G.AutoLevel = v237;
-    if (v237 == true) then
+    if (v237 == false ) then
         wait();
         Tween(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame);
         wait();
     end
 end);
-v17.ToggleLevel:SetValue(true);
+v17.ToggleLevel:SetValue(false);
 spawn(function()
     while task.wait() do
         if _G.AutoLevel then
