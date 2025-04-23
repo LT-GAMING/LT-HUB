@@ -1,4 +1,4 @@
-    shared.LoaderTitle = "Đăng Ký Kênh Youtube: LT GAMING";
+shared.LoaderTitle = "Đăng Ký Kênh Youtube: LT GAMING";
 shared.LoaderColors = {
     Main = Color3.fromRGB(0, 0, 0),
     Topic = Color3.fromRGB(200, 200, 200),
@@ -320,7 +320,7 @@ local v15 = v14:CreateWindow({
     Title = "LT GAMING Hub",
     SubTitle = "Blox Fruit",
     TabWidth = 160,
-    Theme = "RED YELOW GREEN & BLACK",
+    Theme = "BLUE",
     Acrylic = false,
     Size = UDim2.fromOffset(500, 320),
     MinimizeKey = Enum.KeyCode.End
