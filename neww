@@ -39,9 +39,10 @@ local v2 = {
     }
 };
 local TweenService = game:GetService("TweenService")
-function TweenObject(obj, time, props)
-    TweenService:Create(obj, TweenInfo.new(time, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), props):Play()
+function TweenObject(v178, v179, v180)
+    game.TweenService:Create(v178, TweenInfo.new(v179, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), v180):Play();
 end
+local v0 = game:GetService("TweenService")
 function CreateObject(v181, v182)
     local v183 = Instance.new(v181);
     local v184;
@@ -2666,13 +2667,13 @@ v16.Home:AddButton({
         setclipboard("https://discord.gg/UVGVn9Fj");
     end
 });
-_G.FastAttackStrix_Mode = "Super Fast Attack";
+_G.FastAttackStrix_Mode ="Xeter Fast Attack";
 spawn(function()
     while wait() do
         if _G.FastAttackStrix_Mode then
             pcall(function()
-                if (_G.FastAttackStrix_Mode == "Super Fast Attack") then
-                    _G.Fast_Delay = 1e-9;
+                if (_G.FastAttackStrix_Mode == "Xeter Fast Attack") then
+                    _G.Fast_Delay = 1e-15;
                 end
             end);
         end
@@ -2727,17 +2728,17 @@ end);
 local v49 = v16.Main:AddToggle("ToggleLevel", {
     Title = "Cày Cấp",
     Description = "",
-    Default = false
+    Default = true 
 });
 v49:OnChanged(function(v237)
     _G.AutoLevel = v237;
-    if (v237 == false) then
+    if (v237 == true) then
         wait();
         Tween(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame);
         wait();
     end
 end);
-v17.ToggleLevel:SetValue(false);
+v17.ToggleLevel:SetValue(true);
 spawn(function()
     while task.wait() do
         if _G.AutoLevel then
@@ -2762,8 +2763,8 @@ spawn(function()
                                     Tween(v1433.HumanoidRootPart.CFrame * Pos);
                                     v1433.HumanoidRootPart.Size = Vector3.new(60, 60, 60);
                                     v1433.HumanoidRootPart.Transparency = 1;
-                                    v1433.Humanoid.JumpPower = 0;
-                                    v1433.Humanoid.WalkSpeed = 0;
+                                    v1433.Humanoid.JumpPower = 20;
+                                    v1433.Humanoid.WalkSpeed = 350;
                                     v1433.HumanoidRootPart.CanCollide = false;
                                     FarmPos = v1433.HumanoidRootPart.CFrame;
                                     MonFarm = v1433.Name;
