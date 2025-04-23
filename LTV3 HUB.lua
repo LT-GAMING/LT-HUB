@@ -6274,6 +6274,3 @@ spawn(function()
         end
     end
 end)
-end 
-
-loadstring(game:HttpGet("https://github.com/LT-GAMING/LT-HUB/edit/main/LTV3%20HUB.lua"))()
