@@ -1,17 +1,29 @@
-shared.LoaderTitle = "Đăng Ký Kênh Youtube: LT GAMING";
+    shared.LoaderTitle = "Đăng Ký Kênh Youtube: LT GAMING";
 shared.LoaderColors = {
     Main = Color3.fromRGB(0, 0, 0),
     Topic = Color3.fromRGB(200, 200, 200),
     Title = Color3.fromRGB(255, 255, 255),
     LoaderBackground = Color3.fromRGB(40, 40, 40),
     LoaderSplash = Color3.fromRGB(3, 252, 3)
-}
+};
 shared.LoaderKeyFrames = {
-    [1] = {1, 10},
-    [2] = {2, 30},
-    [3] = {3, 60},
-    [4] = {2, 100}
-}
+    [1] = {
+        1,
+        10
+    },
+    [2] = {
+        2,
+        30
+    },
+    [3] = {
+        3,
+        60
+    },
+    [4] = {
+        2,
+        100
+    }
+};
 local v2 = {
     LoaderData = {
         Name = shared.LoaderTitle or "A Loader",
@@ -23,26 +35,34 @@ local v2 = {
             LoaderSplash = Color3.fromRGB(3, 252, 3)
         }
     },
-    local Config = {
-        LoaderData = {
-            Name = shared.LoaderTitle,
-            Colors = shared.LoaderColors
+    Keyframes = shared.LoaderKeyFrames or {
+        [1] = {
+            1,
+            10
         },
-        Keyframes = shared.LoaderKeyFrames
-    }
-    local StepLabels = {"", "", "", ""}
-    local v3 = {
-        [1] = "Loading",
-        [2] = "Loading",
-        [3] = "Loading",
-        [4] = "Loaded"
+        [2] = {
+            2,
+            30
+        },
+        [3] = {
+            3,
+            60
+        },
+        [4] = {
+            2,
+            100
+        }
     }
 };
-local TweenService = game:GetService("TweenService")
+local v3 = {
+    [1] = "",
+    [2] = "",
+    [3] = "",
+    [4] = ""
+};
 function TweenObject(v178, v179, v180)
     game.TweenService:Create(v178, TweenInfo.new(v179, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), v180):Play();
 end
-local v0 = game:GetService("TweenService")
 function CreateObject(v181, v182)
     local v183 = Instance.new(v181);
     local v184;
@@ -300,7 +320,7 @@ local v15 = v14:CreateWindow({
     Title = "LT GAMING Hub",
     SubTitle = "Blox Fruit",
     TabWidth = 160,
-    Theme = "RED BLACK DARK",
+    Theme = "RED YELOW GREEN & BLACK",
     Acrylic = false,
     Size = UDim2.fromOffset(500, 320),
     MinimizeKey = Enum.KeyCode.End
@@ -2664,16 +2684,16 @@ v16.Home:AddButton({
     Title = "Discord",
     Description = "Giao Lưu",
     Callback = function()
-        setclipboard("https://github.com/LT-GAMING/LT-HUB");
+        setclipboard("https://discord.gg/UVGVn9Fj");
     end
 });
-_G.FastAttackStrix_Mode ="Xeter Fast Attack";
+_G.FastAttackStrix_Mode = "Super Fast Attack";
 spawn(function()
     while wait() do
         if _G.FastAttackStrix_Mode then
             pcall(function()
-                if (_G.FastAttackStrix_Mode == "Xeter Fast Attack") then
-                    _G.Fast_Delay = 1e-15;
+                if (_G.FastAttackStrix_Mode == "Super Fast Attack") then
+                    _G.Fast_Delay = 1e-9;
                 end
             end);
         end
@@ -2728,11 +2748,11 @@ end);
 local v49 = v16.Main:AddToggle("ToggleLevel", {
     Title = "Cày Cấp",
     Description = "",
-    Default = false 
+    Default = false
 });
 v49:OnChanged(function(v237)
     _G.AutoLevel = v237;
-    if (v237 == false ) then
+    if (v237 == false) then
         wait();
         Tween(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame);
         wait();
@@ -2763,8 +2783,8 @@ spawn(function()
                                     Tween(v1433.HumanoidRootPart.CFrame * Pos);
                                     v1433.HumanoidRootPart.Size = Vector3.new(60, 60, 60);
                                     v1433.HumanoidRootPart.Transparency = 1;
-                                    v1433.Humanoid.JumpPower = 20;
-                                    v1433.Humanoid.WalkSpeed = 350;
+                                    v1433.Humanoid.JumpPower = 0;
+                                    v1433.Humanoid.WalkSpeed = 0;
                                     v1433.HumanoidRootPart.CanCollide = false;
                                     FarmPos = v1433.HumanoidRootPart.CFrame;
                                     MonFarm = v1433.Name;
