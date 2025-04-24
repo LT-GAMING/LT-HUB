@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ltgaming/libraries/main/rayfield.lua"))()
 local rayfield = library:CreateLib({
     Name = "Lt Gaming",
     LoadingTitle = "Loading Lt Gaming",
@@ -2617,7 +2617,7 @@ local v23 = Instance.new("ImageButton");
 local v24 = Instance.new("UICorner");
 local v25 = Instance.new("ParticleEmitter");
 local v26 = game:GetService("TweenService");
-v22.local success, result = pcall(function()
+local success, result = pcall(function()
 return game:GetService("CoreGui")
 end)
 
