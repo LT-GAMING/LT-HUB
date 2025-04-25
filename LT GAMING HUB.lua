@@ -1,5 +1,7 @@
 
 -- LT GAMING HUB – ULTIMATE FULL FARM ALL EDITION
+-- ✅ Auto Farm, Boss, Chest, Fruit, Raid, PvP, Teleport, Stats
+-- 🧠 Fully inline, no loadstring required except GUI lib
 
 repeat task.wait() until game:IsLoaded()
 repeat task.wait() until game:GetService("Players").LocalPlayer and game:GetService("Players").LocalPlayer.Character
