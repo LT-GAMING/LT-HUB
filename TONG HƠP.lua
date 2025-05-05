@@ -9,7 +9,7 @@ ImageButton.Parent = ScreenGui
 ImageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
-ImageButton.Size = UDim2.new(0, 40, 0, 40)
+ImageButton.Size = UDim2.new(0, 50, 0, 40)
 ImageButton.Draggable = true
 ImageButton.Image = "http://www.roblox.com/asset/?id=112045466994309"
 
@@ -60,14 +60,14 @@ local Tabs = {
         loadstring(game:HttpGet('https://raw.githubusercontent.com/hungquan99/SkullHub/main/loader.lua'))()   
   end
 })
-Tabs.Main1:AddButton({
+    Tabs.Main1:AddButton({
     Title="gumbaba script",
     Description="gumbaba script",
     Callback=function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))()
   end
 })
-Tabs.Main1:AddButton({
+    Tabs.Main1:AddButton({
     Title="Null Fire",
     Description="Null fire",
     Callback=function()
@@ -75,42 +75,42 @@ Tabs.Main1:AddButton({
     end
 })
 
-Tabs.Main1:AddButton({
+    Tabs.Main1:AddButton({
     Title="merci",
     Description="merci",
     Callback=function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/badass1ia/Merciful/refs/heads/main/Absurdity"))()    
         end
 })
-Tabs.Main1:AddButton({
+    Tabs.Main1:AddButton({
     Title="T BAO HUB",
     Description="T BAO HUB",
     Callback=function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/refs/heads/main/TbaoHubDeadRails"))()
     end
 })
-Tabs.Main1:AddButton({
+    Tabs.Main1:AddButton({
     Title="speed hub",
     Description="",
     Callback=function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
       end
 })
-Tabs.Main1:AddButton({
+    Tabs.Main1:AddButton({
     Title="NEOX",
     Description="",
     Callback=function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/NEOXHUBMAIN/refs/heads/main/loader", true))()
     end
 })
-Tabs.Main1:AddButton({
+    Tabs.Main1:AddButton({
     Title="kiciahook",
     Description="",
     Callback=function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.lua"))() 
     end
 })
-Tabs.Main1:AddButton({
+    Tabs.Main1:AddButton({
     Title="DHHz-hub",
     Description="",
     Callback=function()
@@ -118,7 +118,7 @@ Tabs.Main1:AddButton({
 end
 })
 
-Tabs.Main1:AddButton({
+    Tabs.Main1:AddButton({
     Title=" Pink Hub",
     Description="",
     Callback=function()
@@ -127,7 +127,7 @@ Tabs.Main1:AddButton({
 end
 })
 
-Tabs.Main1:AddButton({
+    Tabs.Main1:AddButton({
     Title="NATIVE HUB",
     Description="",
     Callback=function()
@@ -135,70 +135,70 @@ Tabs.Main1:AddButton({
     (loadstring or load)(game:HttpGet("https://getnative.cc/script/loader"))()
 end
 })
-Tabs.Main1:AddButton({
+    Tabs.Main1:AddButton({
     Title="FLY HUB",
     Description="",
     Callback=function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/refs/heads/main/Vehicle%20Fly%20Gui'))()
 end
 })
-Tabs.Main1:AddButton({
+    Tabs.Main1:AddButton({
     Title="Script Lunor Hub: Auto Bond,Kill Aura, Aim Bot,…",
     Description="",
     Callback=function()
         loadstring(game:HttpGet('https://lunor.dev/loader'))()
 end
 })
-Tabs.Main1:AddButton({
+    Tabs.Main1:AddButton({
     Title="Script S7 Hub NO KEY: Auto Farm Bond, Auto Win,…",
     Description="",
     Callback=function()
         loadstring(game:HttpGet('https://lunor.dev/loader'))()
 end
 })
-Tabs.Main2:AddButton({
+    Tabs.Main2:AddButton({
     Title="NatHub",
     Description="",
     Callback=function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))()
 end
 })
-Tabs.Main2:AddButton({
+    Tabs.Main2:AddButton({
     Title="Auto Bond",
     Description="",
     Callback=function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/refs/heads/ok/dead%20rails"))()
 end
 })
-Tabs.Main2:AddButton({
+    Tabs.Main2:AddButton({
     Title="Auto Bond v3 ",
     Description="",
     Callback=function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/m00ndiety/OP-AUTO-BONDS-V3/refs/heads/main/Keyless-BONDS-v3"))()
 end
 })  
-Tabs.Main2:AddButton({
+    Tabs.Main2:AddButton({
     Title="Auto Bond v4",
     Description="",
     Callback=function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Emplic/deathrails/refs/heads/main/bond"))()
 end
 })
-Tabs.Main2:AddButton({
+    Tabs.Main2:AddButton({
     Title="Script TN Bond Hub: Auto Win, Farm Bond,…",
     Description="",
     Callback=function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/thiennrb7/Script/refs/heads/main/autobond"))()
 end
 })
-Tabs.Main3:AddButton({
+    Tabs.Main3:AddButton({
     Title="aimbot",
     Description="",
     Callback=function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/HuyMythicIOS/Anh-Con-Hub/refs/heads/main/AnhConHub-AimLock-NgonThi"))()
 end
 })
-Tabs.Main3:AddButton({
+    Tabs.Main3:AddButton({
     Title="aimbot",
     Description="",
     Callback=function()
@@ -208,8 +208,8 @@ Tabs.Main3:AddButton({
  local Cam = workspace.CurrentCamera
  local Player = game:GetService("Players").LocalPlayer
 
- local FOVring = Drawing.new("Circle")
- FOVring.Visible = false
+local FOVring = Drawing.new("Circle")
+FOVring.Visible = false
  FOVring.Thickness = 2
  FOVring.Color = Color3.fromRGB(128, 0, 128)
  FOVring.Filled = false
@@ -409,14 +409,14 @@ end)
 end
 })
 
-Tabs.Main3:AddButton({
+    Tabs.Main3:AddButton({
     Title="Aimbot",
     Description="",
     Callback=function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Unknownlodfc/Zephyr/refs/heads/main/DeadRails/Aim"))()
 end
 })
-Tabs.Main4:AddButton({
+    Tabs.Main4:AddButton({
     Title="lin tinh",
     Description="",
     Callback=function()
