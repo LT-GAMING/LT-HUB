@@ -53,16 +53,13 @@ local Tabs = {
         setclipboard("https://www.youtube.com/@LT_GAMING_ROBLOX")
     end
 })
-
     Tabs.Main1:AddButton({
     Title="skull hub",
     Description="skull hub",
     Callback=function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/hungquan99/SkullHub/main/loader.lua'))()
-    
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/hungquan99/SkullHub/main/loader.lua'))()   
   end
 })
-
 Tabs.Main1:AddButton({
     Title="gumbaba script",
     Description="gumbaba script",
@@ -70,7 +67,6 @@ Tabs.Main1:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))()
   end
 })
-
 Tabs.Main1:AddButton({
     Title="Null Fire",
     Description="Null fire",
@@ -93,7 +89,6 @@ Tabs.Main1:AddButton({
        loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/refs/heads/main/TbaoHubDeadRails"))()
     end
 })
-
 Tabs.Main1:AddButton({
     Title="speed hub",
     Description="",
@@ -101,15 +96,13 @@ Tabs.Main1:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
       end
 })
-
 Tabs.Main1:AddButton({
-    Title="null way",
+    Title="NEOX",
     Description="",
     Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Unknownlodfc/Zephyr/refs/heads/main/DeadRails/Main"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/NEOXHUBMAIN/refs/heads/main/loader", true))()
     end
 })
-
 Tabs.Main1:AddButton({
     Title="kiciahook",
     Description="",
@@ -117,7 +110,6 @@ Tabs.Main1:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.lua"))() 
     end
 })
-
 Tabs.Main1:AddButton({
     Title="DHHz-hub",
     Description="",
@@ -130,6 +122,7 @@ Tabs.Main1:AddButton({
     Title=" Pink Hub",
     Description="",
     Callback=function()
+    
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptBeLike/Tera-DeadRails/refs/heads/main/Meteor%20V1"))()
 end
 })
@@ -149,7 +142,6 @@ Tabs.Main1:AddButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/refs/heads/main/Vehicle%20Fly%20Gui'))()
 end
 })
-
 Tabs.Main1:AddButton({
     Title="Script Lunor Hub: Auto Bond,Kill Aura, Aim Bot,…",
     Description="",
@@ -157,7 +149,6 @@ Tabs.Main1:AddButton({
         loadstring(game:HttpGet('https://lunor.dev/loader'))()
 end
 })
-
 Tabs.Main1:AddButton({
     Title="Script S7 Hub NO KEY: Auto Farm Bond, Auto Win,…",
     Description="",
@@ -165,7 +156,6 @@ Tabs.Main1:AddButton({
         loadstring(game:HttpGet('https://lunor.dev/loader'))()
 end
 })
-
 Tabs.Main2:AddButton({
     Title="NatHub",
     Description="",
@@ -173,7 +163,6 @@ Tabs.Main2:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))()
 end
 })
-
 Tabs.Main2:AddButton({
     Title="Auto Bond",
     Description="",
@@ -181,7 +170,6 @@ Tabs.Main2:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/refs/heads/ok/dead%20rails"))()
 end
 })
-
 Tabs.Main2:AddButton({
     Title="Auto Bond v3 ",
     Description="",
@@ -189,7 +177,6 @@ Tabs.Main2:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/m00ndiety/OP-AUTO-BONDS-V3/refs/heads/main/Keyless-BONDS-v3"))()
 end
 })  
-
 Tabs.Main2:AddButton({
     Title="Auto Bond v4",
     Description="",
@@ -204,7 +191,6 @@ Tabs.Main2:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/thiennrb7/Script/refs/heads/main/autobond"))()
 end
 })
-
 Tabs.Main3:AddButton({
     Title="aimbot",
     Description="",
