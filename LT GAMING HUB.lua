@@ -42,6 +42,7 @@ local Window = Fluent:CreateWindow({
     Tabs.Main0:AddButton({
     Title = "Discord",
     Description = "LT GAMING Community", ---này cũng tự chỉnh lại 
+    Callback = function()
         setclipboard("https://discord.gg/3q9fdCQs2b") -- link discord của bạn
 end
 })
