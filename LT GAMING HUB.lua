@@ -563,5 +563,4 @@ local Window = Fluent:CreateWindow({
         Callback=function()
             
     end
-})
-
+}) 
