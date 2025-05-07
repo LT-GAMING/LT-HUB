@@ -43,7 +43,7 @@ local Window = Fluent:CreateWindow({
     Title = "Discord",
     Description = "LT GAMING Community", ---này cũng tự chỉnh lại 
         setclipboard("https://discord.gg/3q9fdCQs2b") -- link discord của bạn
-    end
+end
 })
 
     Tabs.Main0:AddButton({
@@ -571,4 +571,3 @@ Tabs.Main1:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Ace/main/Ace"))()    
     end
 })      
-    ------AIMBOT  COMMING SOON !!!!!!!!!!!!!!!!!!
