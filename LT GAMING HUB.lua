@@ -541,7 +541,7 @@ local Window = Fluent:CreateWindow({
 })
 
     Tabs.Main4:AddButton({
-        Title="FRAM CHEST NEWW UI,
+        Title="FRAM CHEST NEWW UI",
         Description="",
         Callback=function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/scarlet1837/a/refs/heads/main/script%20blox%20fruit"))()
