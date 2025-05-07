@@ -561,6 +561,5 @@ local Window = Fluent:CreateWindow({
         Title="COMMING SOON",
         Description="",
         Callback=function()
-            
     end
 }) 
