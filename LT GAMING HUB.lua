@@ -290,99 +290,95 @@ Tabs.Main1:AddButton({
     end    
 })
 
-    Tabs.Main2:AddButton({
-    Title="caveira",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Powerblack09yt/Scripts/main/caveirakaitun.lua"))()
-    end  
-})
+        Tabs.Main2:AddButton({
+        Title="caveira",
+        Description="",
+        Callback=function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Powerblack09yt/Scripts/main/caveirakaitun.lua"))()
+        end  
+    })
 
-    Tabs.Main2:addbutton({
-    Title="royx",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/73mkp0aqyfo4ypy8hvl0nz10lq49fey5.lua"))()
-    end    
-})
+        Tabs.Main2:addbutton({
+        Title="royx",
+        Description="",
+        Callback=function()
+            loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/73mkp0aqyfo4ypy8hvl0nz10lq49fey5.lua"))()
+        end    
+    })
 
-    Tabs.Main2:AddButton({
-    Title="-- Hiru Kaitun Hub",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Super/refs/heads/main/Kaitun.lua"))()
-    end    
-})
+        Tabs.Main2:AddButton({
+        Title="-- Hiru Kaitun Hub",
+        Description="",
+        Callback=function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Super/refs/heads/main/Kaitun.lua"))()
+        end    
+    })
 
-    Tabs.Main2:AddButton({
-    Title="TSUO KAITUN",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/TsuohubKaitun"))()
-    end    
-})
+        Tabs.Main2:AddButton({
+        Title="TSUO KAITUN",
+        Description="",
+        Callback=function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/TsuohubKaitun"))()
+        end    
+    })
 
-    Tabs.Main2:AddButton({
-    Title="BetaKaitunScript",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhau207/SilverHub/main/BetaKaitunScript"))()
-    end    
-})
+        Tabs.Main2:AddButton({
+        Title="BetaKaitunScript",
+        Description="",
+        Callback=function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhau207/SilverHub/main/BetaKaitunScript"))()
+        end    
+    })
 
-    Tabs.Main2:AddButton({
-    Title=" Quartz Kaitun Hub ",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/QuartyzScript/main/Loader.lua"))()
-    end    
-})
-
-    Tabs.Main2:AddButton({
-    Title="Kaitun simple",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/simple-hubs/contents/refs/heads/main/bloxfruit-kaitan-main.lua"))()
-    end
-})
-
-    Tabs.Main2:AddButton({
-    Title="Xero Kaitun",
-    Description="",
-    Callback=function()
+        Tabs.Main2:AddButton({
+        Title=" Quartz Kaitun Hub ",
+        Description="",
+        Callback=function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/QuartyzScript/main/Loader.lua"))()
+        end    
+    })
+        Tabs.Main2:AddButton({
+        Title="Kaitun simple",
+        Description="",
+        Callback=function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/simple-hubs/contents/refs/heads/main/bloxfruit-kaitan-main.lua"))()
+        end
+    })
+        Tabs.Main2:AddButton({
+        Title="Xero Kaitun",
+        Description="",
+        Callback=function()
             repeat task.wait() pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/kaitun.lua"))() end) until getgenv().Check_Execute
-    end
-})
+        end
+    })
+            Tabs.Main3:AddButton({
+            Title="TEDDY HOP",
+            Description="",
+            Callback=function()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))()
+            end
+        })
+            Tabs.Main3:AddButton({
+            Title="HOP SEVER",
+            Description="",
+            Callback=function()
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/a/main/autoBuyHakiColorWithHopServer-obfuscated.lua'))()
+            end
+        })
 
+            Tabs.Main3:AddButton({
+            Title="CUTTAY HUB",
+            Description="",
+            Callback=function()
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/diemquy/CutTayHub/main/Cuttayhubreal.lua'))()
+            end
+        })
 
-    Tabs.Main3:AddButton({
-    Title="TEDDY HOP",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))()
-    end
-})
-    Tabs.Main3:AddButton({
-    Title="HOP SEVER",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/a/main/autoBuyHakiColorWithHopServer-obfuscated.lua'))()
-    end
-})
-
-    Tabs.Main3:AddButton({
-    Title="CUTTAY HUB",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/diemquy/CutTayHub/main/Cuttayhubreal.lua'))()
-    end
-})
-
-    Tabs.Main3:AddButton({
-    Title="HOP FRAM FRUIT CÓ THỂ KO DÙNG  DC",
-    Description="",
-    Callback=function()
-            if not game:IsLoaded() then
+            Tabs.Main3:AddButton({
+            Title="HOP FRAM FRUIT CÓ THỂ KO DÙNG  DC",
+            Description="",
+            Callback=function()
+                if not game:IsLoaded() then
                 game.Loaded:Wait()
             end
             repeat
@@ -490,85 +486,85 @@ Tabs.Main1:AddButton({
     end
 })  
 
-    Tabs.Main4:AddButton({
-    Title="fram chest no name",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet"https://frostware.onrender.com/fwchest")()
-    end
-})
+                Tabs.Main4:AddButton({
+                Title="fram chest no name",
+                Description="",
+                Callback=function()
+                    loadstring(game:HttpGet"https://frostware.onrender.com/fwchest")()
+                 end
+            })  
 
-    Tabs.Main4:AddButton({
-    Title="fram chest sea 2",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet("https://gist.githubusercontent.com/Yomkaa/cb706db9b2f3862d11f17d2dd71aaa80/raw/d62aa5a6bf5d79647c236281fc0556c44778e5a6/YOMKA%20CHEST%20FARM%20(%20ONLY%20SECOND%20SEA)",true))()
-    end
-})
+                Tabs.Main4:AddButton({
+                Title="fram chest sea 2",
+                Description="",
+                Callback=function()
+                loadstring(game:HttpGet("https://gist.githubusercontent.com/Yomkaa/cb706db9b2f3862d11f17d2dd71aaa80/raw/d62aa5a6bf5d79647c236281fc0556c44778e5a6/YOMKA%20CHEST%20FARM%20(%20ONLY%20SECOND%20SEA)",true))()
+                end
+            })  
 
-    Tabs.Main4:AddButton({
-    Title="fram chest sea 3",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet("https://gist.githubusercontent.com/Yomkaa/daa5e464529c6b1d55573d73dbd77a0c/raw/12b1ab7d384aad2beea357b8f68c705a155fc1c8/YOMKA%20CHEST%20FARM%20(%20ONLY%20THIRD%20SEA)",true))()
-    end
-})
+                Tabs.Main4:AddButton({
+                Title="fram chest sea 3",
+                Description="",
+                Callback=function()
+                loadstring(game:HttpGet("https://gist.githubusercontent.com/Yomkaa/daa5e464529c6b1d55573d73dbd77a0c/raw/12b1ab7d384aad2beea357b8f68c705a155fc1c8/YOMKA%20CHEST%20FARM%20(%20ONLY%20THIRD%20SEA)",true))()
+                end
+            })
 
-    Tabs.Main4:AddButton({
-    Title="T BAO HUB",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/BloxfruitChestFarmTbaoHub"))()
-    end
-})
+                Tabs.Main4:AddButton({
+                Title="T BAO HUB",
+                Description="",
+                Callback=function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/BloxfruitChestFarmTbaoHub"))()
+                    end
+                })
 
-    Tabs.Main4:AddButton({
-    Title="Omgshit",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/ChestFarm"))()
-    end
-})
+                Tabs.Main4:AddButton({
+                Title="Omgshit",
+                Description="",
+                Callback=function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/ChestFarm"))()
+                end
+            })  
 
-    Tabs.Main4:AddButton({
-        Title="chest_onoff",
-        Description="",
-        Callback=function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Chest_onoff"))()
-    end
-})
+            Tabs.Main4:AddButton({
+                Title="chest_onoff",
+                Description="",
+                Callback=function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Chest_onoff"))()
+                end
+            })
 
-    Tabs.Main4:AddButton({
-        Title="PNguyen",
-        Description="",
-        Callback=function()
-            _G.JoinTeam = "Marines" --// "Pirates"
-            _G.Stop_If_Has_Items = true --// fasle
-            loadstring(game:HttpGet("https://github.com/PNguyen0199/Script/raw/main/Trash_Auto_Chest.lua"))()
-    end
-})
+                Tabs.Main4:AddButton({
+                Title="PNguyen",
+                Description="",
+                Callback=function()
+                    _G.JoinTeam = "Marines" --// "Pirates"
+                    _G.Stop_If_Has_Items = true --// fasle
+                    loadstring(game:HttpGet("https://github.com/PNguyen0199/Script/raw/main/Trash_Auto_Chest.lua"))()
+                end
+            })
 
-    Tabs.Main4:AddButton({
-    Title="FRAM CHEST NEWW UI",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/scarlet1837/a/refs/heads/main/script%20blox%20fruit"))()
-    end
-})
+                Tabs.Main4:AddButton({
+                Title="FRAM CHEST NEWW UI",
+                Description="",
+                Callback=function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/scarlet1837/a/refs/heads/main/script%20blox%20fruit"))()
+                    end
+            })
 
 
-    Tabs.Main4:AddButton({
-    Title="KO BT TÊN",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet("https://pastefy.app/kL0f0Uuy/raw"))() 
-    end
-})
+                Tabs.Main4:AddButton({
+                Title="KO BT TÊN",
+                Description="",
+                Callback=function()
+                    loadstring(game:HttpGet("https://pastefy.app/kL0f0Uuy/raw"))() 
+                end
+            })
 
-    Tabs.Main5:AddButton({
-    Title="COMMING SOON",
-    Description="",
-    Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Ace/main/Ace"))()    
-    end
-})      
+                Tabs.Main5:AddButton({
+                Title="COMMING SOON",
+                Description="",
+                Callback=function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Ace/main/Ace"))()    
+                end
+            })      
