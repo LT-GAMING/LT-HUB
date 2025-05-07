@@ -16,19 +16,20 @@ ImageButton.Image = "http://www.roblox.com/asset/?id=112045466994309"
 UICorner.CornerRadius = UDim.new(1, 10) 
 UICorner.Parent = ImageButton
 
-ImageButton.MouseButton1Down:Connect(function() 
+ImageButton.MouseButton1Down:Connect(function()
+    game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.End, false, game)
 end)
 
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 repeat wait() until game:IsLoaded()
 local Window = Fluent:CreateWindow({
-        Title = "LT GAMING TOng HOp",
+        Title = "LT GAMING Tổng Hợp",
         SubTitle = "Blox Fruit",
         TabWidth = 157,
         Size = UDim2.fromOffset(525, 420),
         Acrylic = true,
         Theme = "Dark",
-        MinimizeKey = Enum.KeyCode.leftcontrol
+        MinimizeKey = Enum.KeyCode.End
     })
             local Tabs = {
             Main0=Window:AddTab({ Title="Thông Tin" }),
@@ -50,7 +51,7 @@ local Window = Fluent:CreateWindow({
     Title = "Youtuber",
     Description = "ĐĂNG KÍ KÊNH LT GAMING",
     Callback = function()
-        setclipboard("https://www.youtube.com/@LT_GAMING_ROBLOX") -- URL c  th  kh ng   ng
+        setclipboard("https://www.youtube.com/@LT_GAMING_ROBLOX") -- URL có thể không đúng
     end
 })
     Tabs.Main1:AddButton({
@@ -370,7 +371,7 @@ local Window = Fluent:CreateWindow({
 })
 
     Tabs.Main3:AddButton({
-        Title="HOP FRAM FRUIT CÓ THỂ KO DÙNG  DC",
+        Title="HOP FRAM FRUIT CÓ THỂ KO DÙNG ĐC",
         Description="",
         Callback=function()
             if not game:IsLoaded() then
@@ -552,7 +553,7 @@ local Window = Fluent:CreateWindow({
         Title="KO BT TÊN",
         Description="",
         Callback=function()
-            loadstring(game:HttpGet("https://pastefy.app/kL0f0Uuy/raw"))() 
+            loadstring(game:HttpGet("https://pastefy.app/kL0f0Uuy/raw"))() 
     end
 })
 
