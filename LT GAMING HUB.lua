@@ -536,7 +536,7 @@ local Window = Fluent:CreateWindow({
         Callback=function()
             _G.JoinTeam = "Marines" --// "Pirates"
             _G.Stop_If_Has_Items = true --// fasle
-            loadstring(game:HttpGet("https://github.com/PNguyen0199/Script/raw/main/Trash_Auto_Chest.lua"))() 
+            loadstring(game:HttpGet("https://github.com/PNguyen0199/Script/raw/main/Trash_Auto_Chest.lua"))()
     end
 })
 
