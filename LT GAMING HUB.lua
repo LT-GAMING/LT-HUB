@@ -27,10 +27,8 @@ local Window = Fluent:CreateWindow({
         SubTitle = "Blox Fruit",
         TabWidth = 157,
         Size = UDim2.fromOffset(525, 320),
-        Text color = Color3.fromRGB(255, 255, 255),
-        TextSize = 14,
         Acrylic = false,
-        Theme = "Dark",
+        Theme = "Amethyst",
         MinimizeKey = Enum.KeyCode.End
     })
             local Tabs = {
@@ -43,15 +41,14 @@ local Window = Fluent:CreateWindow({
     }
     Tabs.Main0:AddButton({
     Title = "Discord",
-    Description = "LT GAMING Community",
-    Callback = function()
-        setclipboard("https://discord.gg/3q9fdCQs2b")
+    Description = "LT GAMING Community", ---này cũng tự chỉnh lại 
+        setclipboard("https://discord.gg/3q9fdCQs2b") -- link discord của bạn
     end
 })
 
     Tabs.Main0:AddButton({
     Title = "Youtuber",
-    Description = "ĐĂNG KÍ KÊNH LT GAMING", --tự chỉnh lại tên kênh nha
+    Description = "ĐĂNG KÍ KÊNH LT GAMING", --tự chỉnh lại tên kênh 
     Callback = function()
         setclipboard("https://www.youtube.com/@LT_GAMING_ROBLOX") -- URL của kênh
     end
@@ -574,5 +571,4 @@ Tabs.Main1:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Ace/main/Ace"))()    
     end
 })      
-    
-                                 AIMBOT  COMMING SOON !!!!!!!!!!!!!!!!!!
+    ------AIMBOT  COMMING SOON !!!!!!!!!!!!!!!!!!
