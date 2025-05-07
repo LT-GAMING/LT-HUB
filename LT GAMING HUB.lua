@@ -561,5 +561,6 @@ local Window = Fluent:CreateWindow({
         Title="COMMING SOON",
         Description="",
         Callback=function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Ace/main/Ace"))()    
     end
-}) 
+})
