@@ -16,8 +16,7 @@ ImageButton.Image = "http://www.roblox.com/asset/?id=112045466994309"
 UICorner.CornerRadius = UDim.new(1, 10) 
 UICorner.Parent = ImageButton
 
-ImageButton.MouseButton1Down:Connect(function()
-    game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.leftcontrol, false, game)
+ImageButton.MouseButton1Down:Connect(function() 
 end)
 
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
