@@ -26,7 +26,7 @@ local Window = Fluent:CreateWindow({
     Title = "LT GAMING Tổng Hợp",
     SubTitle = "Blox Fruit",
     TabWidth = 157,
-    Size = UDim2.fromOffset(525, 320),
+    Size = UDim2.fromOffset(525, 420),
     Acrylic = true,
     Theme = "Dark",
     MinimizeKey = Enum.KeyCode.leftcontrol
@@ -370,7 +370,8 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/ThundarZ/Welcome/ref
                 ["Ui Screen"] = false,
                 ["LimitFragment"] = 100000,
             
-                ["Buy Base Sword"] = true,Tabs.Main2:AddButton
+                ["Buy Base Sword"] = true,
+                ["Buy Base Gun"] = true,
                 ["Boss List"] = {
                     "The Saw [Lv. 100] [Boss]",
                     "Greybeard [Lv. 750] [Raid Boss]",
@@ -434,60 +435,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/ThundarZ/Welcome/ref
     Title="-- Hiru Kaitun Hub",
     Description="",
     Callback=function()
-        -- Hiru Kaitun Hub
-_G.Quest = {
-    ['RGB Aura Haki'] = true,
-    ['Pull Lever'] = true,
-    ['Quest Dough Awaken'] = true
-}
-_G.Race = {
-    ['Select Race'] = {'Human','Fishman','Skypiea','Mink'},
-    ['Lock Race'] = true,
-    ['Evo Race V3'] = true
-}
-_G.Melee = {
-    ['Godhuman'] = true
-}
-_G.Sword = {
-    ['Saber'] = true,
-    ['Midnight Blade'] = true,
-    ['Shisui'] = true,
-    ['Saddi'] = true,
-    ['Wando'] = true,
-    ['Yama'] = true,
-    ['Koko'] = false,
-    ['Rengoku'] = true,
-    ['Canvander'] = true,
-    ['Buddy Sword'] = true,
-    ['Twin Hooks'] = true,
-    ['SpikeyTrident'] = true,
-    ['Hallow Scryte'] = true,
-    ['Dark Dagger'] = true,
-    ['Tushita'] = true,
-    ['True Triple Katana'] = true,
-    ['Cursed Dual Katana'] = true,
-    ['Shark Anchor'] = true
-}
-_G.Gun = {
-    ['Kabucha'] = true,
-    ['Acidum Rifle'] = true,
-    ['Soul Guitar'] = true,
-    ['Serpent Bow'] = true
-}
-_G.Fruit = {
-    ['Main Fruit'] = {'Kitsune-Kitsune','T-Rex-T-Rex','Mammoth-Mammoth'},
-    ['Select Fruit'] = {'Dark-Dark','Magma-Magma'}
-}
-_G.Mastery = {
-    ['Melee'] = true,
-    ['Sword'] = true,
-    ['Fruit'] = true
-}
-_G.Setting = {
-    ['FPS Booster'] = true,
-    ['Auto Close Ui'] = false
-}
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Super/refs/heads/main/Kaitun.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Super/refs/heads/main/Kaitun.lua"))()
     end    
 })
 
@@ -503,16 +451,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Super/re
     Title="BetaKaitunScript",
     Description="",
     Callback=function()
-        --join discord :https://discord.gg/aUd8umqUKu 
-    _G.Team = "Marine"--Pirate
-    _G.AutoSuperhuman = false 
-    _G.AutoDeathStep = false 
-    _G.AutoSharkman = false
-    _G.AutoElectricClaw = false 
-    _G.AutoDragonTalon = false
-    G.AutoFullySuperhuman = false
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhau207/SilverHub/main/BetaKaitunScript"))()
-
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhau207/SilverHub/main/BetaKaitunScript"))()
     end    
 })
 
@@ -528,37 +467,7 @@ Tabs.Main2:AddButton({
     Title="Kaitun simple",
     Description="",
     Callback=function()
-	  getgenv().simple_settings = {
-["MASTERY"] = { -- Settings related to leveling up weapon or skill mastery
-["ACTIVE"] = true, -- Enable or disable mastery leveling (true = enabled, false = disabled)
-["METHOD"] = "Half", -- Method for gaining mastery, "Half"[300] or "Full"[600]
-},
-["OBJECTIVE"] = { -- Goals for farming and unlocking features
-["GODHUMAN"] = true, -- Automatically unlock the "Godhuman" fighting style
-["RACE-V3"] = true, -- Automatically upgrade character race to V3 if possible Human, Mink, (Fishman, Ghoul, Cyborg) soon
-["FRAGMENT"] = 100000, -- Limit number of fragments to collect
--- SWORD
-["CANVANDER"] = true,
-["BUDDY-SWORD"] = true,
-["CURSED-DUAL-KATANA"] = true,
-["SHARK-ANCHOR"] = true, -- soon..
---GUN
-["ACIDUM-RIFLE"] = true,
-["VENOM-BOW"] = true,
-["SOUL-GUITAR"] = true,
-},
-["FRUITPURCHASE"] = true, -- Automatically purchase fruits based on priority list
-["PRIORITYFRUIT"] = { -- List of preferred fruits to purchase or eat in order of priority
-[1] = "Dragon-Dragon",
-[2] = "Flame-Flame",
-[3] = "Rumble-Rumble",
-[4] = "Human-Human: Buddha",
-[5] = "Dark-Dark",
-},
-["FPSCAP"] = 30, -- Limit the frame rate to optimize performance
-["LOWTEXTURE"] = true -- Reduce graphic quality for better performance
-}
-loadstring(game:HttpGet("https://raw.githubusercontent.com/simple-hubs/contents/refs/heads/main/bloxfruit-kaitan-main.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/simple-hubs/contents/refs/heads/main/bloxfruit-kaitan-main.lua"))()
   end
 })
 
@@ -566,62 +475,7 @@ Tabs.Main2:AddButton({
     Title="Xero Kaitun",
     Description="",
     Callback=function()
-	  -- Max level, godhuman, cdk, sgt
-script_key = "" -- premium only, u can leave it blank if ur not
-getgenv().Shutdown = false -- Turn on if u are farming bulk accounts
-getgenv().Configs = {
-    ["Team"] = "Marines",
-    ["FPS Boost"] = {
-        ["Enable"] = true,
-        ["FPS Cap"] = 30,
-    },
-    ["Farm Boss Drops"] = {
-        ["Enable"] = false,
-        ["When x2 Exp Expired"] = false
-    },
-    ["Hop"] = { -- premium only
-        ["Enable"] = true,
-        ["Hop Find Tushita"] = true,
-        ["Hop Find Valkyrie Helm"] = true,
-        ["Hop Find Mirror Fractal"] = true,
-        ["Hop Find Darkbeard"] = true, -- For skull guitar
-        ["Hop Find Soul Reaper"] = true, -- For CDK
-        ["Hop Find Mirage"] = true, -- For pull lever
-        ["Find Fruit"] = true, -- Will find 1m+ fruit to unlock swan door to access third sea
-    },
-    ["Farm Mastery"] = {
-        ["Enable"] = true,
-        ["Farm Mastery Weapons"] = {"Sword", "Gun", "Blox Fruit"}, -- Blox Fruit, Gun (left -> right: High -> Low Priority)
-        ["Swords To Farm"] = {"Cursed Dual Katana"},
-        ["Guns To Farm"] = {"Skull Guitar"},
-        ["Mastery Health (%)"] = 40 -- For Blox Fruit, Gun
-    },
-    ["Farm Config"] = {
-        ["First Farm At Sky"] = true,
-        ["Farm Bone Get x2 Exp"] = true
-    },
-    ["Trackstat"] = {
-        ["Enable"] = false,
-        ["Key"] = "", -- Get from xerohub.click
-        ["Device"] = "test" -- u can put any name here
-    },
-    ["Auto Spawn rip_indra"] = true,
-    ["Auto Spawn Dough King"] = true,
-    ["Auto Pull Lever"] = true,
-    ["Auto Collect Berry"] = true,
-    ["Auto Evo Race"] = true,
-    ["Awaken Fruit"] = true,
-    ["Rainbow Haki"] = true,
-    ["Hop Player Near"] = true,
-    ["Skull Guitar"] = true,
-    ["Cursed Dual Katana"] = true,
-    ["Switch Melee"] = true,
-    ["Eat Fruit"] = "", -- leave blank for none, put the fruit name like this example: Smoke Fruit, T-Rex Fruit, ...
-    ["Snipe Fruit"] = "", -- leave blank for none, put the fruit name like this example: Smoke Fruit, T-Rex Fruit, ...
-    ["Lock Fragment"] = 30000,
-    ["Buy Stuffs"] = true -- buso, geppo, soru, ken haki, ...
-}
-repeat task.wait() pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/kaitun.lua"))() end) until getgenv().Check_Execute
+        repeat task.wait() pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/kaitun.lua"))() end) until getgenv().Check_Execute
   end
 })
 
@@ -638,8 +492,6 @@ repeat task.wait() pcall(function() loadstring(game:HttpGet("https://raw.githubu
     Description="",
     Callback=function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/a/main/autoBuyHakiColorWithHopServer-obfuscated.lua'))()
-local queueteleport = syn and syn.queue_on_teleport or queue_on_teleport or fluxus and fluxus.queue_on_teleport
-queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/a/main/autoBuyHakiColorWithHopServer-obfuscated.lua'))()")
     end
 })
 
@@ -723,7 +575,6 @@ queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu12
             return true
         end
         
-        --Be nice and leave the credits in!
         for i=1,100 do
             print("Script made by noxu#2161\nMore scripts here: extorius.ezyro.com\nBe nice and leave the credits in!\n---------------------")
         end
@@ -853,4 +704,3 @@ if lib then
         Content = "LOADED DONE SCRIPT IN PROGES!",
         Duration = 6
     })
-
