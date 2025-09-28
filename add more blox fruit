@@ -2,19 +2,19 @@
 local tb = Instance.new("ScreenGui")
 tb.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 tb.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-tb.ResetOnSpawn = true
+tb.ResetOnSpawn = 
 
-local label = Instance.new("TextLabel")
-label.Parent = tb
-label.Size = UDim2.new(1,0,0.1,0)
-label.Position = UDim2.new(0,0,0.1,0)
-label.BackgroundTransparency = 1
-label.Text = "HELO "..game.Players.LocalPlayer.Name.." used Script COMPILATION (by LT GAMING)"
-label.TextSize = 30
-label.TextColor3 = Color3.fromRGB(255, 255, 0) 
-label.Font = Enum.Font.SourceSansBold
+local  = Instance.new("Texttb")
+tb.Parent = tb
+tb.Size = UDim2.new(1,0,0.1,0)
+tb.Position = UDim2.new(0,0,0.1,0)
+tb.BackgroundTransparency = 1
+tb.Text = "HELO "..game.Players.LocalPlayer.Name.." used Script COMPILATION (by LT GAMING)"
+tb.TextSize = 30
+tb.TextColor3 = Color3.fromRGB(255, 255, 0) 
+tb.Font = Enum.Font.SourceSansBold
 
-bao.noidung = Instance.new("TextLabel")
+bao.noidung = Instance.new("Texttb")
 bao.noidung.Parent = bao.khungthongbao
 bao.noidung.Size = UDim2.new(1,0,0.5,0)
 bao.noidung.Position = UDim2.new(0,0,0.5,0)
@@ -27,7 +27,7 @@ bao.noidung.BackgroundTransparency = 1
 
 task.wait(2)
 for i = 0,1,0.02 do
-	label.TextTransparency = i
+	tb.TextTransparency = i
 	task.wait(0.02)
 end
 
@@ -54,13 +54,20 @@ ImageButton.MouseButton1Down:Connect(function()
     game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.P, false, game)
 end)
 
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
 
-repeat wait() until game:IsLoaded()
-local Window = OrionLib:
-    MakeWindow({Name = "LT GAMING TỔNG HỢP", HidePremium = true,})
-    OrionLib:Init()
-    MinimizeKey = Enum.KeyCode.P,
+repeat task.wait() until game:IsLoaded()
+
+local Window = OrionLib:MakeWindow({
+    Name = "LT GAMING TỔNG HỢP",
+    HidePremium = true,
+    SaveConfig = false,
+    ConfigFolder = "LTGAMING",
+    IntroEnabled = false,
+    MinimizeKey = Enum.KeyCode.P
+})
+
+OrionLib:Init()
 
 local Tabs = {
         Main0=Window:AddTab({ Title="Thông Tin" }),
